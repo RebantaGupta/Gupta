@@ -14,7 +14,7 @@ public class Main {
         String drink = drinks.nextLine();
         double costOfDrinks = Integer.parseInt(drink) * 2;
 
-        System.out.println("Cost of HotDogs = $" + costOfHotDogs);
-        System.out.println("Cost of Drinks = $" + costOfDrinks);
+        System.out.println("Cost of HotDogs = $" + (costOfHotDogs * (12/100));
+        System.out.println("Cost of Drinks = $" + (costOfDrinks * (12/100));
     }
 }
